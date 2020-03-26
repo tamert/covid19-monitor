@@ -69,7 +69,7 @@ const confirmed = {
   labels: datesArray.map(date => date.displayFormat),
   datasets: [
     {
-      label: 'Confirmados Diarios',
+      label: 'Teşhis Edilenler',
       // type: 'line',
       pointBorderColor: 'hsla(163, 72%, 48%, 1.0)',
       pointBackgroundColor: 'hsla(163, 72%, 48%, 0.7)',
@@ -126,7 +126,7 @@ const confirmedByProvince = {
   labels: labels,
   datasets: [
     {
-      label: 'Confirmados x Provincia',
+      label: 'Bölge Bölge',
       backgroundColor: 'hsla(163, 72%, 48%, .4)',
       borderColor: 'hsla(163, 72%, 48%, 1.0)',
       borderWidth: 1,

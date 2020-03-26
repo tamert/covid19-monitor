@@ -19,9 +19,9 @@ export default function App() {
           <section>
             <Router>
               <MapChart path="/" />
-              <ConfirmedChart path="/contagios" />
-              <ConfirmedByProvinceChart path="/contagios-provincia" />
-              <DetailsChart path="/detalles" />
+              <ConfirmedChart path="/gun-gun" />
+              <ConfirmedByProvinceChart path="/bolge-bolge" />
+              <DetailsChart path="/detayli" />
             </Router>
           </section>
         </main>

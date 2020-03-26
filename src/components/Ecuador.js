@@ -16,12 +16,12 @@ const Ecuador = ({ t }) => {
   });
 
   const dataTotals = {
-    confirmed: 1211,
-    deaths: 29,
-    suspicious: 1692,
+    confirmed: 3629,
+    deaths: 75,
+    suspicious: 2,
     negatives: 1387,
-    recoveries: 3,
-    tests: 4290
+    recoveries: 26,
+    tests: 40290
   };
 
   var result = (dataTotals.confirmed / dataTotals.tests) * 100;
@@ -36,7 +36,7 @@ const Ecuador = ({ t }) => {
             rel="noopener noreferrer"
             href="https://twitter.com/Riesgos_Ec"
           >
-            RIESGOS EC
+            T.C. SAĞLIK BAKANLIĞI
           </a>
         </small>
       </p>

@@ -22,26 +22,26 @@ const LanguageSelector = () => {
   };
   return (
     <RadioButtons onChange={changeLanguage}>
-      <Label htmlFor="es">
-        <input
-          id="es"
-          type="radio"
-          value="es"
-          name="language"
-          aria-label="Selecciona Español como idioma"
-          defaultChecked
-        />{' '}
-        Español
-      </Label>
-      <Label htmlFor="qwc">
+      <Label htmlFor="tr">
         <input
           id="qwc"
           type="radio"
-          value="qwc"
+          value="tr"
+          defaultChecked={true}
           name="language"
-          aria-label="Selecciona Quichua como idioma"
+          aria-label="Language Select"
         />{' '}
-        Kichwa
+        Türkçe
+      </Label>
+      <Label htmlFor="en">
+        <input
+          id="qwc"
+          type="radio"
+          value="en"
+          name="language"
+          aria-label="Language Select"
+        />{' '}
+        English
       </Label>
     </RadioButtons>
   );

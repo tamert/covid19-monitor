@@ -15,8 +15,8 @@ const DataPanel = ({ t }) => {
       <div>
         <h2>
           {t('ecuador.title')}{' '}
-          <span role="img" aria-label="Ecuador Flag">
-            🇪🇨
+          <span role="img" aria-label="Turkey Flag">
+            🇹🇷
           </span>
         </h2>
         <Ecuador />

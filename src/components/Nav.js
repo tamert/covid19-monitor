@@ -55,13 +55,13 @@ const Nav = ({t}) => {
       <Link to="/" getProps={isActive}>
         {t("map.label")}
       </Link>
-      <Link to="contagios-provincia" getProps={isActive}>
+      <Link to="bolge-bolge" getProps={isActive}>
         {t("region.label")}
       </Link>
-      <Link to="contagios" getProps={isActive}>
+      <Link to="gun-gun" getProps={isActive}>
         {t("day.label")}
       </Link>
-      <Link to="detalles" getProps={isActive}>
+      <Link to="detayli" getProps={isActive}>
         {t("detail.label")}
       </Link>
     </Navigation>

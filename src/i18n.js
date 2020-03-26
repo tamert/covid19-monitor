@@ -6,11 +6,11 @@ i18n
   .use(Backend)
   .use(initReactI18next)
   .init({
-    lng: 'es',
+    lng: 'tr',
     backend: {
       loadPath: '/i18n/{{ns}}/{{lng}}.json'
     },
-    fallbackLng: 'es',
+    fallbackLng: 'tr',
     debug: true,
     ns: ['translations'],
     defaultNS: 'translations',
