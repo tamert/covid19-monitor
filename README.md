@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## **Türkiye**
 
-![Screenshot](screnshot.png)
+![Screenshot](screenshot.png)
 
 
 Kurulum için
