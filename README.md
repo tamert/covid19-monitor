@@ -1,19 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🇪🇨**ECUADOR**
+## **Türkiye**
 
-Tenemos un canal en Discord para conversar: https://discord.gg/N3N74QG
+![Screenshot](screnshot.png)
 
-Quieres ayudar?
 
-- [Mira en los issues si hay algo que te interese](https://github.com/juanmnl/covid19-monitor/issues)
+Kurulum için
 
-- También puedes buscar dónde ayudar acá: [Listado de iniciativas COVID19 - Ecuador](https://github.com/juanmnl/Ecuador-Covid19)
-
-Para dev
-
-- crear token en mapbox.com
-- agregar a `/.env.local`
+- mapbox.com hesabı oluşturup api token alın
+- Token'i aşağıda belirtilen şekilde ekleyin `/.env.local`
 
 ```
 REACT_APP_MAPBOX_ACCESS_TOKEN=token
@@ -21,8 +16,8 @@ REACT_APP_MAPBOX_ACCESS_TOKEN=token
 
 - `npm i && npm start`
 
-> Dudas para ejecutar la applicación? [Aquí una guía 🤓](./docs/run-instructions.md)
 
+kaynak: https://github.com/juanmnl/covid19-monitor
 😅
 
 **Otros Países**
