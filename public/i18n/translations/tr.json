@@ -12,7 +12,7 @@
   "confirmed.label": "Tespit Edilen",
   "deaths.label": "Ölü",
   "surveillance.label": "Gözetim Altında",
-  "suspicious.label": "Şüpheli",
+  "intensive_care.label": "Yoğun Bakım",
   "negatives.label": "Nötür",
   "recoveries.label": "Kurtarılan",
   "test.label": "Test",
